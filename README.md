@@ -10,7 +10,7 @@ Review for My CS Classes
 
 4. SQL
 
-5. Data Structure and Algotirhm
+5. LeetCode : Data Structure and Algotirhm
 
 6. Web Programming 1 : Backend - Flask
 
