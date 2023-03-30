@@ -1,0 +1,30 @@
+# File System Search
+
+1. root, home
+
+/
+~
+
+2. where am I?
+
+pwd
+
+3. 현재 디렉토리의 파일들 : -l, -a 옵션
+
+ls
+
+4. 디렉토리 변경 : ..으로 위로
+
+cd
+
+5. 파일 만들기 
+
+touch
+
+6. 디렉토리 만들기 
+
+mkdir
+
+7. 파일 열기 
+
+file <file>
