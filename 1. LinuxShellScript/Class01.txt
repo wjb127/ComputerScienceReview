@@ -1,1 +1,33 @@
+# Basic Commands
 
+1. 날짜 
+
+date
+
+2. 달력, 인자값으로 연도 등 받는 옵션
+
+ncal
+
+3. 출력
+
+echo
+
+4. 정렬 : -r 으로 거꾸로 가능
+
+sort 
+
+5. 도움말
+
+man cmd
+
+6. 명령어 위치
+
+type cmd
+
+7. 정확한 명령어 위치
+
+which cmd
+
+8. man으로 안 나오는 도움말
+
+help cmd
