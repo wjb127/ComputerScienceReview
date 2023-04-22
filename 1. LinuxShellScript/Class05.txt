@@ -1,0 +1,91 @@
+# Redirection
+
+1. 출력 리디렉션 : cmd > filename
+
+2. 추가하기 : cmd >> filename 
+
+3. 입력 리디렉션 : cmd < file 
+- cat < chickens.txt 
+- < > 조합 가능 
+
+4. std err 리디렉션 : cmd 2> error.txt
+
+5. 1>이 stdout 0> 이 stdin
+
+# Pipeline
+
+1. 파이프 샘플 : ls | less
+
+2. >는 명령어를 특정 파일에 연결한다, |는 다른 명령어에 연결한다
+
+3. 샘플 : ls | wc -l
+
+4. 출력 조작 기능 : tr
+
+5. 인풋 받아서 로그 저장 : tee
+
+# 확장
+
+1. * ?
+
+2. [A-F]*
+
+3. 부정 : ^ 
+
+4. 변수나 수식 대신 값 계산 해주기 : $((expr))
+
+5. 따옴표 : 쌍은 값 계산, 단일은 그대로
+
+6. escaping : \
+
+
+# 찾기
+
+1. locate <file>
+
+2. find <file>
+- type f/d
+
+3. find에 수 세기, 사이즈로 찾기 
+
+
+# Grep
+
+1. 패턴 잡기 : grep pattern file
+- -i
+- -r : 재귀성
+
+2. 정규식 
+
+3. redirect, pipe
+
+
+# 권한
+
+
+# 환경 
+
+1. 환경 확인 : printenv
+
+2. 변수 확장 : echo $USER
+
+3. 변수 정의
+
+4. 예명 : alias ll='ls -al'
+
+5. 시작 파일 : ~/.bashrc
+
+
+# 스크립트
+
+1. Shebang : #!/bin/bash 
+
+2. 실행 : bash pathToFile
+
+3. PATH=""
+
+4. 실행가능하게 만들기 : chmod a+x file
+
+
+# 크론탭
+

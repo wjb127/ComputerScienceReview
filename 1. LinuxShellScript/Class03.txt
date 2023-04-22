@@ -1,0 +1,15 @@
+#Nano
+
+1. 나노 x줄부터 파일 열기 
+
+nano +x FILE
+
+2. 단축키 : ^는 ctrl 의미 
+
+3. 저장 : ctrl + O
+
+4. 종료 : ctlr + X
+
+5. 검색 : ctrl + W
+
+6. 대체 : ctrl + \

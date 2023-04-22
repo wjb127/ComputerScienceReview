@@ -28,3 +28,4 @@ mkdir
 7. 파일 열기 
 
 file <file>
+

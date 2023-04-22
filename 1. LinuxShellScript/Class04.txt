@@ -1,0 +1,62 @@
+# CRUD
+
+1. 삭제 : rm
+
+-옵션 : -d -r -f 등
+
+2. 이동 : mv <src> <dest>
+
+3. 이름변경 : mv <cur> <new> 
+
+4. 복사 : cp <src> <dest>
+
+# 단축키 
+
+1. clear : ctrl + l 
+
+2. 커서 맨 앞뒤로 이동 : ctrl + a/e
+
+3. 문자 앞뒤 움직이기 : ctrl+f/b
+
+4. 줄 뒤/앞까지 삭제 : ctrl + k/u
+
+5. 문자 삭제 : alt + d / ctrl + w
+
+6. 텍스트 부활 : ctrl + y
+
+7. 명령어 기록 : history
+
+- history | less
+- !<num>
+
+# 파일 작업
+
+1. less <file>
+- 다음 페이지 : space, f
+- 이전 페이지 : b
+- 검색 : /
+- 종료 : q
+
+2. cat
+- 파일 이어 붙이기 : cat <f1> <f2>
+
+3. cat 반대 : tac 
+
+4. 텍스트 리버싱 : rev file.txt
+
+5. 앞대가리 : head file.txt
+- n으로 수 조절 
+
+6. 뒷꼬리 : tail file.txt 
+
+7. 글자 수 세기 : wc -l file.txt 
+
+8. 정렬 : sort file.txt
+- -r로 뒤집기 
+
+
+
+
+
+
+
