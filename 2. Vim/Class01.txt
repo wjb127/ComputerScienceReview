@@ -1,1 +1,16 @@
 
+Working With Files
+
+:w	 Save a file
+:q 	Quit a file
+:wq 	Save and quit
+:q! 	Quit without saving
+:w <filename> 	Save a copy as filename
+
+
+Vim Modes
+
+Esc 	Normal mode. Default starting mode.
+i 	Insert mode. Esc to normal mode.
+v 	Visual mode. Esc to normal mode.
+: 	Command-line mode. Esc to normal mode.

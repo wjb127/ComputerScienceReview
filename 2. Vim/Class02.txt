@@ -1,0 +1,26 @@
+
+Navigating
+
+Arrow keys Move around (or h,j,k,l---left, down, up, right)
+$ 	End of line
+0 	Beginning of line (this is a ‘zero’, not an ‘o’)
+Ctrl + u	 Half-page up
+Ctrl + d	 Half-page down
+b	 Backwards a word
+w 	Forward a word
+G 	Bottom of file
+gg 	Top of file(or 1G)
+:set number 	Display line numbering
+:set nonumber	 Hide line numbering
+:5 	Go to line 5
+
+
+Vimdiff
+
+vimdiff <file1> <file2> 	Compare file1 (left) and file2 (right)
+]c 	Go to next diff
+[c 	Go to previous diff
+dp 	Diff put
+do 	Diff get
+:diffupdate 	Rescan files for changes
+Ctrl + ww 	Switch between split windows

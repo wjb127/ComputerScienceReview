@@ -1,0 +1,26 @@
+Editing
+
+i 	Insert mode. Esc to normal mode.
+o	 Insert new line below
+O	 Insert new line above
+I	Insert at beginning of line
+A 	nsert (append) at end of line
+x 	Delete character
+dd 	Delete line
+2dd	 Delete two lines
+5x 	Delete 5 characters
+dG 	Delete from cursor to end of file
+d$ 	Delete from cursor to end of line
+dgg 	Delete from cursor to beginning of file
+yy 	Yank (copy) a line
+
+
+Visual Mode
+
+v 	Enter Visual mode
+Arrow keys	 Highlight text in Visual mode
+y 	Yank (copy) selection
+c 	Change (cut) selection
+d 	Delete selection
+p 	Paste selection. Esc to enter normal mode to paste.
+Esc 	Enter normal mode

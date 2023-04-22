@@ -1,0 +1,13 @@
+Build Efficiency
+
+u 	Undo (from normal mode)
+Ctrl + r 	Redo (from normal mode)
+/searchterm 	Search for searchterm. Add \c for case insensitive.
+n 	Next instance of searchterm
+N 	Previous instance of searchterm
+:%s/replaceme/withme/g Replace "replaceme" with "withme" in the entire file
+:%s/replaceme/withme/gc Replace "replaceme" with "withme" and prompt
+:set paste 	Disable auto-indent upon paste
+:set nopaste 	Re-enable auto-indent upon paste
+?searchterm 	Search backwards in file for searchterm
+. 	Repeat last change
