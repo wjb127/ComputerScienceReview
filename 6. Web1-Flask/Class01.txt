@@ -1,1 +1,30 @@
 
+플라스크로 백엔드 서버 구현하기
+
+1. 플라스크 프로젝트의 기본 형식
+
+1) SQLAlchmy로 models.py 구현하기 
+
+- __tablename__ = "todos"
+- db.Column(db.Integer, primary_key=True)
+- db.Column(db.String, nullable=False)
+- db.relationship("")
+- def __init__(self,)
+
+2) 마이그레이션??
+
+3) app.py 
+
+2. CRUD 
+
+3. 데이터 추가 : 요구사항분석 및 데이터베이스 설계 
+
+4. 사용자 인증 구현 : 등록, 로그인, 로그아웃 기능
+
+5. 보안 기능 추가
+
+6. 게시판 및 댓글 기능
+
+7. UI개발
+
+8. 테스트와 디버깅 
