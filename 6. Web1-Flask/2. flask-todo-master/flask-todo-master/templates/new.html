@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block bb %}
+<form action="/create" method="post">
+  <div class="form-group">
+    <label for="title">할일</label>
+    <input type="text" class="form-control" id="title" name="title">
+  </div>
+  <div class="form-group">
+    <label for="deadline">마감</label>
+    <input type="date" class="form-control" id="deadline" name="deadline">
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+{% endblock %}
