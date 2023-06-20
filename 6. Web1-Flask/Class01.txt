@@ -15,7 +15,34 @@
 
 3) app.py 
 
-2. CRUD 
+2. CRUD : 하루에 한 세트씩 만들기, 웹페이지 상단에 변수 정리해놓기 
+
+ 0) 기본 연결 : 
+connectsql() 함수 만들기
+conn = pymysql.connect(host='',port=,user...)
+
+ 1) Create
+
+ 2) Read
+
+ - 전체 조회 
+conn = connectsql()
+cursor = conn.cursor(pymysql.cursors.DictCursor)
+query = ""
+cursor.execute(query)
+post_list = cursor.fetchall()
+
+cursor.close()
+conn.close()
+
+ 3) Update
+
+ 4) Delete 
+
+ 5) 요약
+ - url -> 함수 인자로 변수 받아오기
+ - conn, cursor, query, value, execute, commit, close
+
 
 3. 데이터 추가 : 요구사항분석 및 데이터베이스 설계 
 
